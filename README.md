@@ -1,76 +1,118 @@
 🛡️ SHANU CYBER SHIELD
 
-"DEFEND THE DEVICE. PROTECT THE DIGITAL WORLD."
+DEFEND THE DEVICE. PROTECT THE DIGITAL WORLD.
 
-<p align="center">
-  <strong>⚡ ANDROID SECURITY • CYBER DEFENSE • XOS DIAGNOSTICS ⚡</strong>
-</p><p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-00D9FF?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Platform-Android-00D9FF?style=for-the-badge&logo=android&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-00D9FF?style=for-the-badge" />
-</p>---
+Android Security • Cyber Defense • XOS Diagnostics • Smart File Scanning
 
-⚡ ABOUT THE PROJECT
+SHANU CYBER SHIELD is a Python-based defensive security toolkit designed for Android and Termux. It brings together basic device-security checks, XOS diagnostics, suspicious-pattern file scanning, SHA-256 hashing, and security reports in one project.
 
-SHANU CYBER SHIELD is a Python-based defensive security toolkit built to support basic Android security reviews, device diagnostics, file-integrity checks, and incident documentation.
+The repository includes the original SHANU CYBER SHIELD tools and SHANU CYBER SHIELD V2, with a modular scanner, Android diagnostic scripts, automated tests, and a terminal dashboard.
 
-Designed with a simple command-line interface and a focus on responsible security practices.
+⚡ Core Features
 
-🔥 CORE FEATURES
+- 🛡️ Security Diagnostics — review available Android security indicators.
+- 📱 XOS Companion — inspect supported Android and XOS settings.
+- 🔎 Smart File Scanner — flag selected suspicious code patterns in supported files for manual review.
+- 🔐 SHA-256 Hashing — calculate file hashes for integrity checks.
+- 📊 Local Reports — save supported diagnostic results locally.
+- 💻 V2 Terminal Dashboard — launch available modules through one menu.
+- 🧪 Automated Tests — test key scanner functions.
+- 📝 Incident Documentation — maintain security notes where supported by the relevant tool.
 
-Module| Capability
-🛡️ Security Audit| Review basic device-security indicators
-🔎 Folder Scanner| Search selected folders for suspicious indicators
-🔐 SHA-256| Calculate file-integrity hashes
-📝 Incident Log| Record incident timeline notes
-🌐 Network Tools| Run basic network diagnostics
-📱 XOS Companion| Review Android and XOS security settings
-📊 Reports| Save supported diagnostic results locally
-
-🚀 QUICK START
-
-Requirements
-
-- Python 3
-- Termux or another compatible Python environment
-
-Launch Cyber Shield
-
-python shanu_cyber_shield_advanced.py
-
-Launch XOS Companion
-
-python shanu_xos16_companion.py
-
-🧠 PROJECT STRUCTURE
+📂 Repository Structure
 
 shanu-cyber-shield/
+├── SHANU-CYBER-SHIELD-V2/
+│   ├── android_checks/
+│   │   ├── auto_check.py
+│   │   └── device_check.py
+│   ├── scanner/
+│   │   ├── __init__.py
+│   │   └── smart_scanner.py
+│   ├── tests/
+│   │   └── test_smart_scanner.py
+│   ├── reports/
+│   ├── main.py
+│   ├── shanu_dashboard.py
+│   ├── README.md
+│   ├── LICENSE
+│   └── .gitignore
 ├── shanu_cyber_shield_advanced.py
 ├── shanu_xos16_companion.py
 ├── LICENSE
 ├── .gitignore
 └── README.md
 
-⚠️ SECURITY & LIMITATIONS
+📱 Requirements
 
-- This project is not a full antivirus or forensic platform.
-- Android and Termux restrictions may limit device-level visibility.
-- Scanner findings are indicators, not proof of compromise.
-- Review generated reports before sharing them.
-- Never commit API keys, passwords, private logs, or sensitive evidence.
+- Android device or another compatible Python environment
+- Termux recommended for Android
+- Python 3
+- Git for cloning the repository
 
-🤝 RESPONSIBLE USE
+🚀 Installation
 
-Use this toolkit only on devices and files you own or have explicit permission to assess.
+Clone the repository:
 
-👨‍💻 BUILT BY
+git clone https://github.com/shanudevil558-collab/shanu-cyber-shield.git
+cd shanu-cyber-shield
+
+▶️ Run the Original Cyber Shield
+
+python shanu_cyber_shield_advanced.py
+
+📱 Run the XOS Companion
+
+python shanu_xos16_companion.py
+
+🛡️ Run SHANU CYBER SHIELD V2
+
+Enter the V2 directory:
+
+cd SHANU-CYBER-SHIELD-V2
+
+Launch the dashboard:
+
+python shanu_dashboard.py
+
+Run the smart scanner:
+
+python scanner/smart_scanner.py
+
+Run automated tests:
+
+python -m unittest discover -s tests -v
+
+Follow each script's prompts and review its results manually.
+
+🔐 Security & Privacy
+
+- Use the toolkit only on devices and files you own or are authorized to assess.
+- Review reports before sharing; they may contain device or file information.
+- Never commit passwords, API keys, access tokens, private logs, or sensitive evidence.
+- Keep generated reports local unless you have reviewed and intentionally approved their publication.
+- Android and Termux restrictions may limit the diagnostic information available.
+
+⚠️ Limitations
+
+SHANU CYBER SHIELD is an educational defensive toolkit, not a certified antivirus, complete malware detector, or professional forensic platform.
+
+Scanner matches are indicators for manual review, not proof of compromise. A clean scan does not guarantee that a file is safe. Features and device visibility depend on the scripts, Android version, and available permissions.
+
+🤝 Responsible Use
+
+Learn, audit, and protect responsibly. Do not use this toolkit to access devices, accounts, networks, or files without permission.
+
+📄 License
+
+This project is distributed under the MIT License. See "LICENSE" (LICENSE).
+
+👨‍💻 Built By
 
 SHANU AI LABS
 
-"LEARN. AUDIT. PROTECT."
+GitHub: "@shanudevil558-collab" (https://github.com/shanudevil558-collab)
 
----
+LEARN. AUDIT. PROTECT.
 
-<p align="center">
-  <strong>⚡ BUILD SMART. STAY SECURE. ⚡</strong>
-</p>
+⚡ BUILD SMART. STAY SECURE. ⚡
