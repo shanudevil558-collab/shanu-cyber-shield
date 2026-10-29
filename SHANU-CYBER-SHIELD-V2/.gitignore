@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Local reports and evidence
+reports/*
+!reports/.gitkeep
+evidence/
+*.log
+security-report*.txt
+sensitive_history.txt
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
